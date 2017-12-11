@@ -15,10 +15,10 @@ public class GameDBDao {
 
     private Player[] createPlayers() {
         Player[] array = {
-                Player.create("Sammy", 0),
-                Player.create("Peter", 0),
-                Player.create("Helen", 0),
-                Player.create("Antony", 0),
+                Player.create("Sammy", 12),
+                Player.create("Peter", 30),
+                Player.create("Helen", 45),
+                Player.create("Antony", 5),
         };
         return array;
     }
